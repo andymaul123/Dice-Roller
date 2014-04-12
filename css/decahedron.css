@@ -1,0 +1,348 @@
+
+.container-shapeD10 {
+    -webkit-perspective: 38em;
+    -moz-perspective: 38em;
+    -ms-perspective: 38em;
+    -o-perspective: 38em;
+    perspective: 38em;
+    width: 16em;
+    height: 16em;
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);
+    -ms-transform: scaleY(0.7);
+    -o-transform: scaleY(0.7);
+    transform: scaleY(0.7);
+    pointer-events: none;
+}
+#shapeD10 {
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%; 
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+}
+.decahedron, .decahedron * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#shapeD10 .side1, #shapeD10 .side2, #shapeD10 .side3, #shapeD10 .side4, #shapeD10 .side5, #shapeD10 .side6, #shapeD10 .side7, #shapeD10 .side8, #shapeD10 .side9, #shapeD10 .side10 {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8em;
+    width: 16em;
+    height: 16em;
+}
+
+#shapeD10 .side1 *, #shapeD10 .side2 *, #shapeD10 .side3 *, #shapeD10 .side4 *, #shapeD10 .side5 *, #shapeD10 .side6 *, #shapeD10 .side7 *, #shapeD10 .side8 *, #shapeD10 .side9 *, #shapeD10 .side10 * {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8em;
+    width: 16em;
+    height: 16em;
+}
+
+#shapeD10 .side1 *:before, #shapeD10 .side2 *:before, #shapeD10 .side3 *:before, #shapeD10 .side4 *:before, #shapeD10 .side5 *:before, #shapeD10 .side6 *:before, #shapeD10 .side7 *:before, #shapeD10 .side8 *:before, #shapeD10 .side9 *:before, #shapeD10 .side10 *:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8em;
+    width: 16em;
+    height: 16em;
+}
+
+
+#shapeD10 .side1, #shapeD10 .side6 {
+    -webkit-transform: rotateY(0rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -moz-transform: rotateY(0rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -ms-transform: rotateY(0rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -o-transform: rotateY(0rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    transform: rotateY(0rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+#shapeD10 .side2, #shapeD10 .side7 {
+    -webkit-transform: rotateY(1.25664rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -moz-transform: rotateY(1.25664rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -ms-transform: rotateY(1.25664rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -o-transform: rotateY(1.25664rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    transform: rotateY(1.25664rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+#shapeD10 .side3, #shapeD10 .side8 {
+    -webkit-transform: rotateY(2.51327rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -moz-transform: rotateY(2.51327rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -ms-transform: rotateY(2.51327rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -o-transform: rotateY(2.51327rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    transform: rotateY(2.51327rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+#shapeD10 .side4, #shapeD10 .side9 {
+    -webkit-transform: rotateY(3.76991rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -moz-transform: rotateY(3.76991rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -ms-transform: rotateY(3.76991rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -o-transform: rotateY(3.76991rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    transform: rotateY(3.76991rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+#shapeD10 .side5, #shapeD10 .side10 {
+    -webkit-transform: rotateY(5.02655rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -moz-transform: rotateY(5.02655rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -ms-transform: rotateY(5.02655rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    -o-transform: rotateY(5.02655rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+    transform: rotateY(5.02655rad) translateZ(4.20585em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+#shapeD10 .inner {
+  -webkit-transform: scaleY(1.05146) skewX(-0.31416rad) rotate(0.62832rad) translateY(-5.81234em) rotate(0.31416rad) skewY(0.94248rad) scaleX(0.58779);
+  -moz-transform: scaleY(1.05146) skewX(-0.31416rad) rotate(0.62832rad) translateY(-5.81234em) rotate(0.31416rad) skewY(0.94248rad) scaleX(0.58779);
+  -ms-transform: scaleY(1.05146) skewX(-0.31416rad) rotate(0.62832rad) translateY(-5.81234em) rotate(0.31416rad) skewY(0.94248rad) scaleX(0.58779);
+  -o-transform: scaleY(1.05146) skewX(-0.31416rad) rotate(0.62832rad) translateY(-5.81234em) rotate(0.31416rad) skewY(0.94248rad) scaleX(0.58779);
+  transform: scaleY(1.05146) skewX(-0.31416rad) rotate(0.62832rad) translateY(-5.81234em) rotate(0.31416rad) skewY(0.94248rad) scaleX(0.58779);
+
+}
+#shapeD10 .inner:before {
+  -webkit-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em);
+  -moz-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em);
+  -ms-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em);
+  -o-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em);
+  transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em);
+  background-position: 50% 100%;
+  content: "";
+}
+
+#shapeD10 .top-half {
+    -webkit-transform: rotateX(0deg) translateY(6.80521em);
+    -moz-transform: rotateX(0deg) translateY(6.80521em);
+    -ms-transform: rotateX(0deg) translateY(6.80521em);
+    -o-transform: rotateX(0deg) translateY(6.80521em);
+    transform: rotateX(0deg) translateY(6.80521em);
+}
+
+#shapeD10 .bottom-half {
+    -webkit-transform: rotateX(-180deg) translateY(6.80521em);
+    -moz-transform: rotateX(-180deg) translateY(6.80521em);
+    -ms-transform: rotateX(-180deg) translateY(6.80521em);
+    -o-transform: rotateX(-180deg) translateY(6.80521em);
+    transform: rotateX(-180deg) translateY(6.80521em);
+}
+
+
+#shapeD10 .inner:after {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    padding: 0;
+    margin: 0;
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    font-size: 90px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+ -webkit-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em) scaleY(1.7);
+ -moz-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em) scaleY(1.7);
+ -ms-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em) scaleY(1.7);
+ -o-transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em) scaleY(1.7);
+ transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.18766em) scaleY(1.7);
+}
+
+#shapeD10 .side1 .inner:before {
+    background-color: hsla(137, 57%, 35%, 0.9);
+}
+#shapeD10 .side1 .inner:after {
+    content: '1';
+}
+#shapeD10 .side2 .inner:before {
+    background-color: hsla(142, 57%, 35%, 0.9);
+}
+#shapeD10 .side2 .inner:after {
+    content: '2';
+}
+#shapeD10 .side3 .inner:before {
+    background-color: hsla(132, 57%, 35%, 0.9);
+}
+#shapeD10 .side3 .inner:after {
+    content: '3';
+}
+#shapeD10 .side4 .inner:before {
+    background-color: hsla(147, 57%, 35%, 0.9);
+}
+#shapeD10 .side4 .inner:after {
+    content: '4';
+}
+#shapeD10 .side5 .inner:before {
+    background-color: hsla(127, 57%, 35%, 0.9);
+}
+#shapeD10 .side5 .inner:after {
+    content: '5';
+}
+
+#shapeD10 .side6 .inner:before {
+    background-color: hsla(137, 57%, 35%, 0.9);
+}
+#shapeD10 .side6 .inner:after {
+    content: '6';
+}
+#shapeD10 .side7 .inner:before {
+    background-color: hsla(127, 57%, 35%, 0.9);
+}
+#shapeD10 .side7 .inner:after {
+    content: '7';
+}
+#shapeD10 .side8 .inner:before {
+    background-color: hsla(147, 57%, 35%, 0.9);
+}
+#shapeD10 .side8 .inner:after {
+    content: '8';
+}
+#shapeD10 .side9 .inner:before {
+    background-color: hsla(132, 57%, 35%, 0.9);
+}
+#shapeD10 .side9 .inner:after {
+    content: '9';
+}
+#shapeD10 .side10 .inner:before {
+    background-color: hsla(137, 57%, 35%, 0.9);
+}
+#shapeD10 .side10 .inner:after {
+    content: '10';
+}
+
+
+/* Show-Face Classes for Animation */
+
+#shapeD10.show-side1 {
+    -webkit-transform: rotateX(25deg) scaleY(0.7);
+    -moz-transform: rotateX(25deg) scaleY(0.7);
+    -ms-transform: rotateX(25deg) scaleY(0.7);
+    -o-transform: rotateX(25deg) scaleY(0.7);
+    transform: rotateX(25deg) scaleY(0.7);
+}
+#shapeD10.show-side2 {
+    -webkit-transform: rotateX(25deg) rotateY(288deg) scaleY(0.7);
+    -moz-transform: rotateX(25deg) rotateY(288deg) scaleY(0.7);
+    -ms-transform: rotateX(25deg) rotateY(288deg) scaleY(0.7);
+    -o-transform: rotateX(25deg) rotateY(288deg) scaleY(0.7);
+    transform: rotateX(25deg) rotateY(288deg) scaleY(0.7);
+}
+#shapeD10.show-side3 {
+    -webkit-transform: rotateX(25deg) rotateY(216deg) scaleY(0.7);
+    -moz-transform: rotateX(25deg) rotateY(216deg) scaleY(0.7);
+    -ms-transform: rotateX(25deg) rotateY(216deg) scaleY(0.7);
+    -o-transform: rotateX(25deg) rotateY(216deg) scaleY(0.7);
+    transform: rotateX(25deg) rotateY(216deg) scaleY(0.7);
+}
+#shapeD10.show-side4 {
+    -webkit-transform: rotateX(25deg) rotateY(144deg) scaleY(0.7);
+    -moz-transform: rotateX(25deg) rotateY(144deg) scaleY(0.7);
+    -ms-transform: rotateX(25deg) rotateY(144deg) scaleY(0.7);
+    -o-transform: rotateX(25deg) rotateY(144deg) scaleY(0.7);
+    transform: rotateX(25deg) rotateY(144deg) scaleY(0.7);
+}
+#shapeD10.show-side5 {
+    -webkit-transform: rotateX(25deg) rotateY(72deg) scaleY(0.7);
+    -moz-transform: rotateX(25deg) rotateY(72deg) scaleY(0.7);
+    -ms-transform: rotateX(25deg) rotateY(72deg) scaleY(0.7);
+    -o-transform: rotateX(25deg) rotateY(72deg) scaleY(0.7);
+    transform: rotateX(25deg) rotateY(72deg) scaleY(0.7);
+}
+#shapeD10.show-side6 {
+    -webkit-transform: rotateX(205deg) scaleY(0.7);
+    -moz-transform: rotateX(205deg) scaleY(0.7);
+    -ms-transform: rotateX(205deg) scaleY(0.7);
+    -o-transform: rotateX(205deg) scaleY(0.7);
+    transform: rotateX(205deg) scaleY(0.7);
+}
+#shapeD10.show-side7 {
+    -webkit-transform: rotateX(205deg) rotateY(72deg) scaleY(0.7);
+    -moz-transform: rotateX(205deg) rotateY(72deg) scaleY(0.7);
+    -ms-transform: rotateX(205deg) rotateY(72deg) scaleY(0.7);
+    -o-transform: rotateX(205deg) rotateY(72deg) scaleY(0.7);
+    transform: rotateX(205deg) rotateY(72deg) scaleY(0.7);
+}
+#shapeD10.show-side8 {
+    -webkit-transform: rotateX(205deg) rotateY(144deg) scaleY(0.7);
+    -moz-transform: rotateX(205deg) rotateY(144deg) scaleY(0.7);
+    -ms-transform: rotateX(205deg) rotateY(144deg) scaleY(0.7);
+    -o-transform: rotateX(205deg) rotateY(144deg) scaleY(0.7);
+    transform: rotateX(205deg) rotateY(144deg) scaleY(0.7);
+}
+#shapeD10.show-side9 {
+    -webkit-transform: rotateX(205deg) rotateY(216deg) scaleY(0.7);
+    -moz-transform: rotateX(205deg) rotateY(216deg) scaleY(0.7);
+    -ms-transform: rotateX(205deg) rotateY(216deg) scaleY(0.7);
+    -o-transform: rotateX(205deg) rotateY(216deg) scaleY(0.7);
+    transform: rotateX(205deg) rotateY(216deg) scaleY(0.7);
+}
+#shapeD10.show-side10 {
+    -webkit-transform: rotateX(205deg) rotateY(288deg) scaleY(0.7);
+    -moz-transform: rotateX(205deg) rotateY(288deg) scaleY(0.7);
+    -ms-transform: rotateX(205deg) rotateY(288deg) scaleY(0.7);
+    -o-transform: rotateX(205deg) rotateY(288deg) scaleY(0.7);
+    transform: rotateX(205deg) rotateY(288deg) scaleY(0.7);
+}
+
+/* Extra code for the top color */
+
+#shapeD10 .side1 .inner {
+    background-color: hsla(137, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side2 .inner {
+    background-color: hsla(142, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side3 .inner {
+    background-color: hsla(132, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side4 .inner {
+    background-color: hsla(147, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side5 .inner {
+    background-color: hsla(127, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side6 .inner {
+    background-color: hsla(137, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side7 .inner {
+    background-color: hsla(127, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side8 .inner {
+    background-color: hsla(147, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side9 .inner {
+    background-color: hsla(132, 57%, 35%, 0.9);
+}
+
+#shapeD10 .side10 .inner {
+    background-color: hsla(132, 57%, 35%, 0.9);
+}

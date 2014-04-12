@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DiceRoller</title>
+        <meta name="description" content="DiceRoller, a set of dice created from CSS 3D transforms and JavaScript.">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=0" />
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/tetrahedron.css">
+        <link rel="stylesheet" href="css/cube.css">
+        <link rel="stylesheet" href="css/octahedron.css">
+        <link rel="stylesheet" href="css/decahedron.css">
+        <link rel="stylesheet" href="css/dodecahedron.css">
+        <link rel="stylesheet" href="css/icosahedron.css">
+        <link rel="stylesheet" href="css/basic.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        
+        <script src="js/diceroller.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.simplemodal.1.4.4.min.js"></script>
+    </head>
+    <body>
+
+        <header>Dice Roller</header>
+        <p class="subtitle">Created with CSS 3D transforms and JavaScript.</p>
+
+        <section class="buttons">
+            <button id="D4" onclick="masterRoller(this.id)">D4</button>
+            <button id="D6" onclick="masterRoller(this.id)">D6</button>
+            <button id="D8" onclick="masterRoller(this.id)">D8</button>
+            <button id="D10" onclick="masterRoller(this.id)">D10</button>
+            <button id="D12" onclick="masterRoller(this.id)">D12</button>
+            <button id="D20" onclick="masterRoller(this.id)">D20</button>
+            <button id="about" value="Demo">About</button>
+        </section>
+
+        <div class="box">
+        <div class="row">
+            <div class="wrapper">
+                <div id="shapeD4" class="show-side1">
+                    <figure class="side1"><div class="triangle"><div></div></div></figure>
+                    <figure class="side2"><div class="triangle"><div></div></div></figure>
+                    <figure class="side3"><div class="triangle"><div></div></div></figure>
+                    <figure class="side4"><div class="triangle"><div></div></div></figure>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <section class="container-shapeD6">
+                    <div id="shapeD6" class="show-side1">
+                        <figure class="side1">1</figure>
+                        <figure class="side2">2</figure>
+                        <figure class="side3">3</figure>
+                        <figure class="side4">4</figure>
+                        <figure class="side5">5</figure>
+                        <figure class="side6">6</figure>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="wrapper">
+                <div class="container-shapeD8" id="shrink">
+                    <ul id="shapeD8" class="show-side1">
+                        <li class='side1'><div class="octa"><p>1</p></div></li>
+                        <li class='side2'><div class="octa"><p>2</p></div></li>
+                        <li class='side3'><div class="octa"><p>3</p></div></li>
+                        <li class='side4'><div class="octa"><p>4</p></div></li>
+                        <li class='side5'><div class="octa"><p>5</p></div></li>
+                        <li class='side6'><div class="octa"><p>6</p></div></li>
+                        <li class='side7'><div class="octa"><p>7</p></div></li>
+                        <li class='side8'><div class="octa"><p>8</p></div></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="wrapper">
+                <div class="container-shapeD10" id="shrink">
+                    <div id="shapeD10" class="show-side1">
+                        <div class="decahedron">
+                            <div class="top-half">
+                                <div class="side1">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side2">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side3">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side4">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side5">
+                                    <div class="inner"></div>
+                                </div>
+                            </div>
+                            <div class="bottom-half">
+                                <div class="side6">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side7">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side8">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side9">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side10">
+                                    <div class="inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="container-shapeD12" id="shrink">
+                    <div id="shapeD12" class="show-side1">
+                        <div class="dodecahedron">
+                            <div class="top-half">
+                                <div class="side1">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side2">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side3">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side4">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side5">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side6">
+                                    <div class="inner"><div class="inner6"></div></div>
+                                </div>
+                            </div>
+                            <div class="bottom-half">
+                                <div class="side7">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side8">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side9">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side10">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side11">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="side12">
+                                    <div class="inner"><div class="inner12"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+            <div class="container-shapeD20" id="shrink">
+                    <div id="shapeD20" class="show-side1">
+                        <div class="icosahedron">
+                          <div class="pyramid-top">
+                            <div class="side1">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side2">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side3">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side4">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side5">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pyramid-bottom">
+                            <div class="side16">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side17">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side18">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side19">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                            <div class="side20">
+                              <div class="innerFace_pyramid">
+                                <div class="triShape triColor"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="middle">
+                            <div class="middle__half">
+                              <div class="side6">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side8">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side10">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side12">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side14">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="middle__half">
+                              <div class="side7">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side9">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side11">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side13">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                              <div class="side15">
+                                <div class="innerFace_middle">
+                                  <div class="triShape triColor"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+</div>
+        <p class="warningtext">Only works in Google Chrome!</p>
+        <div id="basic-modal-content">
+            <h1>About DiceRoller</h1>
+            <p>A small experiment in re-creating the six basic dice from D&amp;D using only CSS 3D transforms and some JavaScript. The code is free to use. Created by <a href="http://www.andrewmaul.com/" target="new">Andrew Maul</a>.</p>
+
+            <h2>Credit</h2>
+            <ul>
+            <li>Ana Tudor's CSS Polyhedrons - <a href="http://dabblet.com/user/thebabydino" target="new">Dabblet</a> and <a href="http://codepen.io/thebabydino/" target="new">CodePen</a></li>
+            <li>David DeSandro's <a href="http://desandro.github.io/3dtransforms/" target="new">Intro to 3D CSS</a></li>
+            <li>Sindre Sorhus' <a href="https://github.com/sindresorhus/sublime-autoprefixer" target="new">Autoprefixer for Sublime Text 3</a></li>
+            <li>Eric Martin's <a href="http://www.ericmmartin.com/projects/simplemodal/" target="new">Simple Modal</a></li>
+            <li>Subtle Pattern's <a href="http://subtlepatterns.com/notebook/" target="new">Notebook Paper Texture</a></li>
+            </ul>
+        </div>
+<!-- Basic Modal -->
+        <script type="text/javascript">
+            $('#about').click(function (e) {
+                $('#basic-modal-content').modal();
+                return false;
+            });
+        </script>
+    </body>
+</html>

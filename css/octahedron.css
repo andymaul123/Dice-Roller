@@ -1,0 +1,251 @@
+
+.container-shapeD8 {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 16em; 
+    height: 16em;
+    -webkit-perspective: 100em;
+    -moz-perspective: 100em;
+    -ms-perspective: 100em;
+    -o-perspective: 100em;
+    perspective: 100em;
+    top: -50px;
+    pointer-events:none;
+}
+#shapeD8 {
+    position: absolute;
+    margin: -50px auto 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%; 
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+}
+
+#shapeD8 .side1, #shapeD8 .side2, #shapeD8 .side3, #shapeD8 .side4, #shapeD8 .side5, #shapeD8 .side6, #shapeD8 .side7, #shapeD8 .side8 {
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+}
+#shapeD8 .side1 .octa, #shapeD8 .side2 .octa, #shapeD8 .side3 .octa, #shapeD8 .side4 .octa, #shapeD8 .side5 .octa, #shapeD8 .side6 .octa, #shapeD8 .side7 .octa, #shapeD8 .side8 .octa {
+    display: block; 
+    width: 100%; 
+    height: 100%;    
+    overflow: hidden;
+    -webkit-transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    -moz-transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    -ms-transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    -o-transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    transform: translateY(50%) rotate(30deg) skewY(30deg) scaleX(.866);
+}
+
+#shapeD8 .side1 p, #shapeD8 .side2 p, #shapeD8 .side3 p, #shapeD8 .side4 p, #shapeD8 .side5 p, #shapeD8 .side6 p, #shapeD8 .side7 p, #shapeD8 .side8 p {
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 325px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-50%);
+    -moz-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-50%);
+    -ms-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-50%);
+    -o-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-50%);
+    transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-50%);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden; 
+}
+
+
+/* Transforms and colors for each specific face */
+
+#shapeD8 .side1 {
+    -webkit-transform: rotateX(35.26deg) translateZ(4.1em);
+    -moz-transform: rotateX(35.26deg) translateZ(4.1em);
+    -ms-transform: rotateX(35.26deg) translateZ(4.1em);
+    -o-transform: rotateX(35.26deg) translateZ(4.1em);
+    transform: rotateX(35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side1 p {
+    background: hsla( 230, 100%, 50%, 0.9 );
+}
+#shapeD8 .side2 {
+    -webkit-transform: rotateY(90deg) rotateX(35.26deg) translateZ(4.1em);
+    -moz-transform: rotateY(90deg) rotateX(35.26deg) translateZ(4.1em);
+    -ms-transform: rotateY(90deg) rotateX(35.26deg) translateZ(4.1em);
+    -o-transform: rotateY(90deg) rotateX(35.26deg) translateZ(4.1em);
+    transform: rotateY(90deg) rotateX(35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side2 p {
+    background: hsla( 240, 100%, 50%, 0.9 );
+}
+#shapeD8 .side3 {
+    -webkit-transform: rotateY(180deg) rotateX(35.26deg) translateZ(4.1em);
+    -moz-transform: rotateY(180deg) rotateX(35.26deg) translateZ(4.1em);
+    -ms-transform: rotateY(180deg) rotateX(35.26deg) translateZ(4.1em);
+    -o-transform: rotateY(180deg) rotateX(35.26deg) translateZ(4.1em);
+    transform: rotateY(180deg) rotateX(35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side3 p {
+    background: hsla( 230, 100%, 50%, 0.9 );
+}
+#shapeD8 .side4 {
+    -webkit-transform: rotateY(-90deg) rotateX(35.26deg) translateZ(4.1em);
+    -moz-transform: rotateY(-90deg) rotateX(35.26deg) translateZ(4.1em);
+    -ms-transform: rotateY(-90deg) rotateX(35.26deg) translateZ(4.1em);
+    -o-transform: rotateY(-90deg) rotateX(35.26deg) translateZ(4.1em);
+    transform: rotateY(-90deg) rotateX(35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side4 p {
+    background: hsla( 240, 100%, 50%, 0.9 );
+}
+#shapeD8 .side5 {
+    -webkit-transform: translateY(52%) rotateX(-35.26deg) translateZ(4.1em);
+    -moz-transform: translateY(52%) rotateX(-35.26deg) translateZ(4.1em);
+    -ms-transform: translateY(52%) rotateX(-35.26deg) translateZ(4.1em);
+    -o-transform: translateY(52%) rotateX(-35.26deg) translateZ(4.1em);
+    transform: translateY(52%) rotateX(-35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side5 p {
+    background: hsla( 240, 100%, 50%, 0.9 );
+}
+#shapeD8 .side6 { 
+    -webkit-transform: translateY(52%) rotateY(90deg) rotateX(-35.26deg) translateZ(4.1em); 
+    -moz-transform: translateY(52%) rotateY(90deg) rotateX(-35.26deg) translateZ(4.1em); 
+    -ms-transform: translateY(52%) rotateY(90deg) rotateX(-35.26deg) translateZ(4.1em); 
+    -o-transform: translateY(52%) rotateY(90deg) rotateX(-35.26deg) translateZ(4.1em); 
+    transform: translateY(52%) rotateY(90deg) rotateX(-35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side6 p {
+    background: hsla( 230, 100%, 50%, 0.9 );
+}
+#shapeD8 .side7 {
+    -webkit-transform: translateY(52%) rotateY(180deg) rotateX(-35.26deg) translateZ(4.1em);
+    -moz-transform: translateY(52%) rotateY(180deg) rotateX(-35.26deg) translateZ(4.1em);
+    -ms-transform: translateY(52%) rotateY(180deg) rotateX(-35.26deg) translateZ(4.1em);
+    -o-transform: translateY(52%) rotateY(180deg) rotateX(-35.26deg) translateZ(4.1em);
+    transform: translateY(52%) rotateY(180deg) rotateX(-35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side7 p {
+    background: hsla( 240, 100%, 50%, 0.9 );
+}
+#shapeD8 .side8 {
+    -webkit-transform: translateY(52%) rotateY(-90deg) rotateX(-35.26deg) translateZ(4.1em);
+    -moz-transform: translateY(52%) rotateY(-90deg) rotateX(-35.26deg) translateZ(4.1em);
+    -ms-transform: translateY(52%) rotateY(-90deg) rotateX(-35.26deg) translateZ(4.1em);
+    -o-transform: translateY(52%) rotateY(-90deg) rotateX(-35.26deg) translateZ(4.1em);
+    transform: translateY(52%) rotateY(-90deg) rotateX(-35.26deg) translateZ(4.1em);
+}
+#shapeD8 .side8 p {
+    background: hsla( 230, 100%, 50%, 0.9 );
+}
+
+/* Transform rules for the bottom half */
+
+#shapeD8 .side5 .octa, #shapeD8 .side6 .octa, #shapeD8 .side7 .octa, #shapeD8 .side8 .octa {
+    -webkit-transform: translateY(-50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    -moz-transform: translateY(-50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    -ms-transform: translateY(-50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    -o-transform: translateY(-50%) rotate(30deg) skewY(30deg) scaleX(.866);
+    transform: translateY(-50%) rotate(30deg) skewY(30deg) scaleX(.866);
+}
+
+#shapeD8 .side5 p, #shapeD8 .side6 p, #shapeD8 .side7 p, #shapeD8 .side8 p {
+    -webkit-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(50%);
+    -moz-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(50%);
+    -ms-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(50%);
+    -o-transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(50%);
+    transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(50%);
+    line-height: 150px;
+}
+
+/* Show-Face Classes for Animation */
+
+#shapeD8.show-side1 {
+    -webkit-transform:  rotateX(-45deg) rotateY(0deg);
+    -moz-transform:  rotateX(-45deg) rotateY(0deg);
+    -ms-transform:  rotateX(-45deg) rotateY(0deg);
+    -o-transform:  rotateX(-45deg) rotateY(0deg);
+    transform:  rotateX(-45deg) rotateY(0deg);
+}
+#shapeD8.show-side2 {
+    -webkit-transform:  rotateX(-45deg) rotateY(270deg);
+    -moz-transform:  rotateX(-45deg) rotateY(270deg);
+    -ms-transform:  rotateX(-45deg) rotateY(270deg);
+    -o-transform:  rotateX(-45deg) rotateY(270deg);
+    transform:  rotateX(-45deg) rotateY(270deg);
+}
+#shapeD8.show-side3 {
+    -webkit-transform:  rotateX(-45deg) rotateY(180deg);
+    -moz-transform:  rotateX(-45deg) rotateY(180deg);
+    -ms-transform:  rotateX(-45deg) rotateY(180deg);
+    -o-transform:  rotateX(-45deg) rotateY(180deg);
+    transform:  rotateX(-45deg) rotateY(180deg);
+}
+#shapeD8.show-side4 {
+    -webkit-transform:  rotateX(-45deg) rotateY(90deg);
+    -moz-transform:  rotateX(-45deg) rotateY(90deg);
+    -ms-transform:  rotateX(-45deg) rotateY(90deg);
+    -o-transform:  rotateX(-45deg) rotateY(90deg);
+    transform:  rotateX(-45deg) rotateY(90deg);
+}
+#shapeD8.show-side5 {
+    -webkit-transform:  rotateX(45deg) rotateY(0deg);
+    -moz-transform:  rotateX(45deg) rotateY(0deg);
+    -ms-transform:  rotateX(45deg) rotateY(0deg);
+    -o-transform:  rotateX(45deg) rotateY(0deg);
+    transform:  rotateX(45deg) rotateY(0deg);
+}
+#shapeD8.show-side6 {
+    -webkit-transform:  rotateX(45deg) rotateY(270deg);
+    -moz-transform:  rotateX(45deg) rotateY(270deg);
+    -ms-transform:  rotateX(45deg) rotateY(270deg);
+    -o-transform:  rotateX(45deg) rotateY(270deg);
+    transform:  rotateX(45deg) rotateY(270deg);
+}
+#shapeD8.show-side7 {
+    -webkit-transform:  rotateX(45deg) rotateY(180deg);
+    -moz-transform:  rotateX(45deg) rotateY(180deg);
+    -ms-transform:  rotateX(45deg) rotateY(180deg);
+    -o-transform:  rotateX(45deg) rotateY(180deg);
+    transform:  rotateX(45deg) rotateY(180deg);
+}
+#shapeD8.show-side8 {
+    -webkit-transform:  rotateX(45deg) rotateY(90deg);
+    -moz-transform:  rotateX(45deg) rotateY(90deg);
+    -ms-transform:  rotateX(45deg) rotateY(90deg);
+    -o-transform:  rotateX(45deg) rotateY(90deg);
+    transform:  rotateX(45deg) rotateY(90deg);
+}
+
+/* Sneaky fix to address weird clipping issue when dice is on bottom numbers. */
+
+.show-side8 .side6 p {
+    opacity: 0.1;
+}
+.show-side6 .side8 p {
+    opacity: 0.1;
+}
+.show-side5 .side7 p {
+    opacity: 0.1;
+}
+.show-side7 .side5 p {
+    opacity: 0.1;
+}
